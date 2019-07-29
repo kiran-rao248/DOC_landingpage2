@@ -646,6 +646,12 @@ border-radius: 5px;
   width: 100%;
 }
 
+.main-health-questions-mobile-only{
+  height: auto;
+  text-align: left;
+  width: 475%;
+}
+
 .main-health-question-1{
   display: block;
 }
