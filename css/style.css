@@ -65,8 +65,6 @@ body {
   }
 }
 
-
-
 /*5.0 Search Section*/
 
 .main-search-section { 
@@ -1058,14 +1056,6 @@ border-radius: 5px;
   width: 6%; 
 }
 
-/* @media (max-width:328px){
-  .main-health-link1 {
-    margin-bottom: 4%;
-    border: 1px solid #dfdcdc;
-    padding: 3.2% 2% 0% 3%;
-}
-} */
-
 @media(max-width: 991px){
   .main-health-link1 {
     border: 1px solid #dfdcdc;
@@ -1074,7 +1064,6 @@ border-radius: 5px;
     position: relative;
     display: inline-block;
     overflow: hidden;
-    /* margin: 0; */
 }
 .main-health-articles-img-1 {
   border-style: dashed;
@@ -1112,43 +1101,9 @@ border-radius: 5px;
 }
 }
 
-/* 
-@media screen and (max-width: 576px) {
-  .main-health-articles-diagram-1{
-    display: none;
-  }
-  .main-health-articles-diagram-2{
-    display: none;
-  }
-  .main-health-articles-diagram-3{
-    display: none;
-  }
-  .main-health-p {
-    display: none;
-  }
-  .main-articles-white{
-    display: none;
-  }
-  .main-health-articles-HPV{
-    display: none;
-  }
-}   */
-
 .main-docworks-signup:hover, .main-docworks-signup:hover span{
   color: #fff;
 }
-
-/* .main-nextpage-btn{
-}
-
-.main-nextpage-btn a{   
-  background-color: #41C0F1;
-  border-radius: 4px;
-  color: #fff; 
-  padding: 19px; 
-  padding-left: 85px;
-  padding-right: 85px;
-} */
 
 .main-read-articles-part{
   margin-top: 20px;
@@ -1197,11 +1152,6 @@ border-radius: 5px;
   margin-top: 24px;
   width: 75%;
 }
-
-/* .main-connect-phone-diagram{
-  margin-top: 35px;
-} */ 
-
 
  /*----------------------------------------------------
 15.0 Subsribe-email*/
