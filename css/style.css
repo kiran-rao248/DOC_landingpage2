@@ -187,16 +187,30 @@ margin: 0 auto;
   .main-dropdown{
     display: none;
   }
-}
+} 
 
-@media (min-width: 806px){
+@media (max-width:836px){
   .main-epharm-slider-3{
-display: flex;
-overflow: auto;
+    display: flex;
+    overflow: auto;
   }
 }
 
-
+/* @media (max-width:836px){  
+  .main-partner-1-slider{ 
+    border: dashed;
+    display: flex;
+    margin-bottom: -18px; 
+    overflow: auto;
+  }
+}
+@media (min-width:836px){
+  .main-partner-1-slider{  
+    display: block;
+    margin-bottom: -18px;  
+    text-align: center;
+  }
+} */
  /*----------------------------------------------------
 6.0 Partnership Section*/
 
@@ -583,12 +597,19 @@ display: inline-block;
 margin: 102px;
 } 
 
-@media (max-width: 576px){
+@media (max-width: 836px){
 .main-epharm-slider-2{
 display: flex;
 overflow: auto;
 } 
 
+}
+
+@media (max-width: 991px){
+  .main-howdocworks-slider{
+   display: flex;
+   overflow: auto; 
+  }
 }
 
 
@@ -1067,6 +1088,14 @@ margin-bottom: 27px;
 width: 6%; 
 }
 
+.main-docworks-signup:hover, .main-docworks-signup:hover span{
+  color: #fff;
+  }
+  
+  .main-read-articles-part{
+  margin-top: 20px;
+  }
+
 @media(max-width: 991px){
 .main-health-link1 {
   border: 1px solid #dfdcdc;
@@ -1112,13 +1141,13 @@ width: 14%;
 }
 }
 
-.main-docworks-signup:hover, .main-docworks-signup:hover span{
-color: #fff;
+@media (max--width:576px){
+  .main-read-articles-slider{
+    display: flex;
+    overflow: auto;
+  }
 }
 
-.main-read-articles-part{
-margin-top: 20px;
-}
 
 
 /*13.0 Connect With Doctors*/
@@ -1251,3 +1280,13 @@ font-size: 230%;
 .main-subscribe-email-text p{
 font-size: 120%;
 } 
+
+/*14.0 Featured On*/
+
+.main-featured-logo img{
+  height: 80px;
+}
+
+.main-featured-diagram{
+  padding-bottom: 32px;
+}
