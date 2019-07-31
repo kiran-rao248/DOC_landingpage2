@@ -14,9 +14,9 @@
         3.3 footer tabs
 
 /* 1. global */
-
+/* 
 body {
-  font-family: Open Sans;
+  font-family: "Open Sans";
 }
 
 .desktop-only {
@@ -25,7 +25,7 @@ body {
 
 .mobile-only {
   display: none;
-}
+} */
 
 /* 2. header */
 

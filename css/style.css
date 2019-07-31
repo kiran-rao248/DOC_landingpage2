@@ -46,7 +46,7 @@ html::-webkit-scrollbar-thumb
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
   margin: 0;
   overflow-x: hidden;
 }
@@ -118,14 +118,38 @@ margin: 0 auto;
   padding-left: 20px;
 }
 
-.main-dropdown{
-  border: none;
-  border-left: 1px blue;
+.main-dropdown{ 
+  -webkit-appearance: none;
+  background-color: #fff;
+  background-image: url("https://img.icons8.com/ios/50/000000/sort-down.png");
+  background-position: right .7em top 50%, 0 0;
+  background-size: 1em auto, 100%;
+  background-repeat: no-repeat;
+  border: none;   
+  color: #3C3C3C;
   display: inline-block;
   height: 100%;
   margin-left: -4px;
+  padding-left: .5em;
   width: 20%;
 }
+
+.main-dropdown::-ms-expand {
+  display: none;
+}
+.main-dropdown:hover {
+  border-color: #888;
+}
+  .main-dropdown:focus { 
+    box-shadow: 0 0 1px 3px #41C0F1;
+    box-shadow: 0 0 0 3px -moz-mac-focusring; 
+    outline: none;
+}
+.main-dropdown option {
+  font-weight:normal;
+}
+
+
 .main-search-part{
   height: 48px;
   margin: 0 auto;
@@ -515,7 +539,7 @@ border-radius: 5px;
 .tabs .content section h2 { display: block; }
 }
 
-.cliente  { 
+.main-epharma-product{ 
   text-align: center;
   padding: 20px; 
   margin: 20px; 
@@ -774,6 +798,15 @@ margin-top: 18px;
   height: 130px;
   margin-bottom: 52px;
 }  
+/* .main-docworks-product-1{
+  display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+} */
+
 .main-docworks-product-2{
 height: 130px;
 margin-bottom: 40px;
