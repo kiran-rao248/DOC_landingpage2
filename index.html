@@ -8,7 +8,7 @@
         <meta name="author" content="">
         <link rel="stylesheet" href="/css/bootstrap.grid.min.css">
         <link rel="stylesheet" href="/css/style.css">
-        <link rel="stylesheet" href="/css/style-headerfooter.css">
+        <!-- <link rel="stylesheet" href="/css/style-headerfooter.css"> -->
         <title>DoctorOnCall.com.my | Malaysia's Online Medical Clinic & Pharmacy</title>
 
 
@@ -498,83 +498,79 @@
 
 <!--Second tab starts from here-->
 <section class="container main-read-disease">
-  <div class="row">
-      <div class="main-read-about">
-              <h2>Read About Diseases</h2> 
-              <div class="main-read-diagram"> 
-              </div> 
-          </div>
-      <div class="main-read-disease-tabs">
-              <input type="main-read-disease-radio" id="main-read-disease-tab1" name="main-read-disease-tab-control" checked="">
-              <input type="main-read-disease-radio" id="main-read-disease-tab2" name="main-read-disease-tab-control">
-              <input type="main-read-disease-radio" id="main-read-disease-tab3" name="main-read-disease-tab-control">
-              <input type="main-read-disease-radio" id="main-read-disease-tab4" name="main-read-disease-tab-control">
-              <ul>
-                <li title="General Health">
-                  <label for="main-read-disease-tab1" role="button"><br>
-                    <span>General Health</span></label>
-                </li>
-                <li title="Men's Health">
-                  <label for="main-read-disease-tab2" role="button"><br>
-                    <span>Men's Health</span></label>
-                </li>
-                <li title="Women's Health">
-                  <label for="main-read-disease-tab3" role="button"><br>
-                    <span>Women's Health</span></label>
-                </li>
-                <li title="Sexual Health">
-                      <label for="main-read-disease-tab3" role="button"><br>
-                       <span>Sexual Health</span></label>
-                  </li>
-              </ul>
-              <div class="main-read-disease-slider-2">
-                <div class="main-read-disease-indicator"></div>
-              </div>
-              <div class="container main-read-disease-content">
-                  <section class="row">
-                      <h2>Medicine</h2>
-                      
-                      <div class="col-md-3 col-sm-4 main-read-1"> 
-                         <img src="/images/icons8-eye-100.svg">  
-                       <p>Eye Condition</p> 
-                      </div>
-                      <div class="col-md-3 col-sm-4 main-read-1"> 
-                            <img src="/images/icons8-coughing-100.svg">  
-                        <p>Sore Throat</p> 
-                      </div>
-                      <div class="col-md-3 col-sm-4 main-read-1"> 
-                                          <img src="images/icons8-brain-100.svg">  
-                                      <p>Migraine</p> 
-                      </div>
-                      <div class="col-md-3 col-sm-4 main-read-1"> 
-                                          <img src="/images/icons8-bandage-100.svg">  
-                                      <p>Minor Injuries</p> 
-                      </div>
-                      <div class="col-md-3 col-sm-4 main-read-1"> 
-                                           <img src="/images/icons8-liver-100.svg">  
-                                      <p>Fatty Liver</p>  
-                          </div>
-                          <div class="col-md-3 col-sm-4 main-read-1"> 
-                                              <img src="/images/icons8-being-sick-100.svg"> 
-                                          <p>Cough & Cold</p>  
-                              </div>
-                  </section>
-                <section>
-                  <h2>Delivery Contents</h2>
-                  Nothing here yet
-                </section>
-                <section>
-                  <h2>Shipping</h2>
-                  Nothing here yet
-                </section>
-                <section>
-                      <h2>Shipping</h2>
-                      Nothing here yet
-                    </section>
-              </div>
+  <div class="row">   
+          <div class="main-health-related-tabs">
+            <!-- Radio button and lable for #tab-content1 -->
+            <input type="radio" name="main-health-related-tabs" id="main-tab1" checked >
+            <label for="main-tab1">
+              <p class="main-tab-header"> General Health</p>
+            </label>
+            <!-- Radio button and lable for #tab-content2 -->
+            <input type="radio" name="main-health-related-tabs" id="main-tab2">
+            <label for="main-tab2">
+                <p class="main-tab-header">Men's Health</p>
+            </label>
+            <!-- Radio button and lable for #tab-content3 -->
+            <input type="radio" name="main-health-related-tabs" id="main-tab3">
+            <label for="main-tab3">
+                <p class="main-tab-header">Women's Health</p>
+            </label>
+            <!-- Radio button and lable for #tab-content3 -->
+            <input type="radio" name="main-health-related-tabs" id="main-tab4">
+            <label for="main-tab4">
+                <p class="main-tab-header">Sexual Health</p>
+            </label>           
+
+            <!-- #tab-content1 -->
+            <div id="main-tab-content1" class="tab-content"> 
+              <div class="container main-read-disease-content"> 
+                                
+                <div class="col-md-3 col-sm-4 main-read-1"> 
+                   <img src="/images/icons8-eye-100.svg">  
+                 <p>Eye Condition</p> 
+                </div>
+                <div class="col-md-3 col-sm-4 main-read-1"> 
+                      <img src="/images/icons8-coughing-100.svg">  
+                  <p>Sore Throat</p> 
+                </div>
+                <div class="col-md-3 col-sm-4 main-read-1"> 
+                                    <img src="images/icons8-brain-100.svg">  
+                                <p>Migraine</p> 
+                </div>
+                <div class="col-md-3 col-sm-4 main-read-1"> 
+                                    <img src="/images/icons8-bandage-100.svg">  
+                                <p>Minor Injuries</p> 
+                </div>
+                <div class="col-md-3 col-sm-4 main-read-1"> 
+                                     <img src="/images/icons8-liver-100.svg">  
+                                <p>Fatty Liver</p>  
+                    </div>
+                    <div class="col-md-3 col-sm-4 main-read-1"> 
+                                        <img src="/images/icons8-being-sick-100.svg"> 
+                                    <p>Cough & Cold</p>  
+                        </div> 
+        </div> 
             </div> 
-  </div>
-</div>
+
+            <!-- #tab-content2 -->
+            <div id="main-tab-content2" class="tab-content">
+                <h3> Tab 2 title here </h3>
+                <p>Tab 2 content here </p>
+            </div> 
+
+            <!-- #tab-content3 -->
+            <div id="main-tab-content3" class="tab-content">
+                <h3> Tab 3 title here </h3>
+                <p> Tab 3 content here </p>
+            </div> 
+
+            <!-- #tab-content4 -->
+            <div id="main-tab-content4" class="tab-content">
+              <h3> Tab 4 title here </h3>
+              <p> Tab 4 content here </p>
+          </div>    
+        </div>
+  </div> 
 </section>
 
 <!--Health articles Desktop version starts from here-->
@@ -751,7 +747,7 @@
                             </section>
 
 <!--Footer starts from here-->
-                                <footer>
+                                <!-- <footer>
 
                                         <div class="container">
                                             <div class="row">
@@ -935,7 +931,7 @@
                                               </div>
                                             </div>
                                           </div>
-                                        </footer> 
+                                        </footer>  -->
     </body>
 
 </html>
