@@ -966,6 +966,7 @@ font-size: 130%;
   font-size: 16px;
   font-weight: bold;
   text-align: center;
+  white-space: nowrap;
 }
 
 .main-tab1{
@@ -986,6 +987,7 @@ font-size: 130%;
   background: #FFF; 
   border-bottom: 4px solid #41C0F1;
   color: #41C0F1;
+  width: 13%;
 }
 #main-tab1:checked ~ #main-tab-content1,
 #main-tab2:checked ~ #main-tab-content2,
