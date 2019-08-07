@@ -295,19 +295,14 @@ text-align: center;
   padding: 15px;
   border-radius: 4px;
   text-decoration: none; 
-  padding-right: 34px;
-  display: none;  
-}
+  padding-right: 34px; 
+} 
 
-.main-ephrama-cliente:hover a{ 
-  display: block; 
-}
-
-.main-ephrama-cliente:hover{ 
+/* .main-ephrama-cliente:hover{ 
   transform: scale(1.1);
   transition: all 0.5s; 
   box-shadow: inset 2px #fff;  
-}
+} */
 
 .main-ephrama-stars{
   margin-bottom: 20px;
@@ -324,6 +319,7 @@ text-align: center;
   color: #9D9D9D;
   display: inline-block;
   font-size: 12px;
+  margin-left: 7px;
   text-decoration: line-through;
 }
 
@@ -1048,21 +1044,6 @@ left: 50%;
 min-height: 100%;
 min-width: 100%;
 transform: translate(-50%, -50%);
-}
-
-
-
-.main-health-link1:hover{
-background-color: #41C0F1;
-border: none;
-color: #fff;
-transform: scale(1.1);
-transition: all 0.5s; 
-cursor: pointer;
-}
-
-.main-health-link1:hover span{
-  color: #fff;
 }
 
 .main-health-articles-dr{
