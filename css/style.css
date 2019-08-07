@@ -46,7 +46,7 @@ html::-webkit-scrollbar-thumb
 }
 
 body {
-  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   overflow-x: hidden;
 }
@@ -148,7 +148,6 @@ margin: 0 auto;
   font-weight:normal;
 }
 
-
 .main-search-part{
   height: 48px;
   margin: 0 auto;
@@ -237,23 +236,8 @@ margin: 0 auto;
     display: flex;
     overflow: auto;
   }
-}
+} 
 
-/* @media (max-width:836px){  
-  .main-partner-1-slider{ 
-    border: dashed;
-    display: flex;
-    margin-bottom: -18px; 
-    overflow: auto;
-  }
-}
-@media (min-width:836px){
-  .main-partner-1-slider{  
-    display: block;
-    margin-bottom: -18px;  
-    text-align: center;
-  }
-} */
  /*----------------------------------------------------
 6.0 Partnership Section*/
 
@@ -296,7 +280,12 @@ text-align: center;
 .main-epharma-price{
   margin-bottom: 1px;
   margin-top: 36px;
-} 
+}  
+
+.main-epharma-slider{
+  display: flex;
+  overflow: auto;
+}
 
 .main-e-pharm-btn{
   border : none;
@@ -340,8 +329,7 @@ text-align: center;
 
 .main-medicine-image{
   margin-top: 31px; 
-  margin-left: 39px;
-
+  margin-left: 39px; 
 }
 
 .main-epharma-discount{
@@ -353,14 +341,17 @@ text-align: center;
   padding-left: 7px;
   padding-right: 5px; 
 }
+
 .main-tabs-epharma:after {
   content: '';
   display: table;
   clear: both;
 }
+
 .main-tabs-epharma input[type=radio] {
   display:none;
 }
+
 .main-tabs-epharma label {
   display: block;
   float: left;
@@ -375,17 +366,21 @@ text-align: center;
   -webkit-transition: all 0.5s; /* Safari 3.1 to 6.0 */
   transition: all 0.5s;
 }
+
 .main-tabs-epharma label span {
   display: none;
 }
+
 .main-tabs-epharma label i {
   padding: 5px;
   margin-right: 0;
 }
+
 .main-tabs-epharma label:hover {
   color: #3498db; 
   border-bottom: 4px solid #3498db;
 }
+
 .main-ephrama-tab-content {
   display: none;
   width: 100%;
@@ -419,6 +414,7 @@ text-align: center;
   border-bottom: 4px solid #3498db;
   color: #3498db;
 }
+
 #main-ephrma-tab-1:checked ~ #main-epharma-tab-content1,
 #main-ephrma-tab-2:checked ~ #main-epharma-tab-content2,
 #main-ephrma-tab-3:checked ~ #main-epharma-tab-content3 {
@@ -426,14 +422,14 @@ text-align: center;
 } 
 
 .main-tabs-epharma i {
-      padding: 5px;
-      margin-right: 10px;
+  padding: 5px;
+  margin-right: 10px;
 }
-.main-tabs-epharma label span {
-      display: inline-block;
-      font-size: 16px;
-} 
 
+.main-tabs-epharma label span {
+  display: inline-block;
+  font-size: 16px;
+} 
 
 /*----------------------------------------------------
 8.0 How DoctorOnCall Works */
@@ -505,7 +501,6 @@ margin-left: 11px;
 margin-bottom: 11px;
 width: 31%;
 }
-
 
 .main-health-text-p{
 color: #bebebe;
@@ -637,14 +632,6 @@ margin-top: 18px;
   height: 130px;
   margin-bottom: 52px;
 }  
-/* .main-docworks-product-1{
-  display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 90px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-} */
 
 .main-docworks-product-2{
 height: 130px;
@@ -701,6 +688,7 @@ font-size: 130%;
   background-color: #F6F6F6; 
   margin-top: -7px;
 } 
+
  /*----------------------------------------------------
 10.0 Read About Diseases*/ 
  
@@ -727,14 +715,17 @@ font-size: 130%;
   list-style: none;
   padding: 0;   
 }
+
 .main-health-related-tabs:after {
   content: '';
   display: table;
   clear: both;
 }
+
 .main-health-related-tabs input[type=radio] {
   display:none;
 }
+
 .main-health-related-tabs label {
   display: block;
   float: left;
@@ -750,17 +741,21 @@ font-size: 130%;
   -webkit-transition: all 0.5s;  
   transition: all 0.5s;
 }
+
 .main-health-related-tabs label span {
   display: none;
 }
+
 .main-health-related-tabs label i {
   padding: 5px;
   margin-right: 0;
 }
+
 .main-health-related-tabs label:hover {
   color: #3498db; 
   border-bottom: 4px solid #3498db;
 }
+
 .tab-content {
   display: none;
   width: 100%;
@@ -873,7 +868,6 @@ background-image: url("/images/specilaist/ENT_Specialist.jpg");
 .main-find-doc-diagram-6{ 
 background-image: url("/images/specilaist/dermatology.jpg"); 
 }
-
 
 .main-find-doc-1-text{
 text-align: center;
@@ -1114,9 +1108,9 @@ margin-bottom: 27px;
 width: 6%; 
 }
    
-  .main-read-articles-part{
-  margin-top: 20px;
-  }
+.main-read-articles-part{
+margin-top: 20px;
+}
 
 @media(max-width: 991px){
 .main-health-link1 {
@@ -1225,15 +1219,6 @@ width: 82%;
 }
 }
 
-/* @media (min-width: 1200px){
-  .main-connect-text-desktop h2{
-    font-size: 240%;
-  }
-  .main-connect-text-desktop p{
-    font-size: 103%;
-  }
-} */
-
 /*----------------------------------------------------
 15.0 Subsribe-email*/
 
@@ -1259,10 +1244,8 @@ width: 75%;
   border: none;
   border-radius: 4px 0 0 4px;
   height: 48px;
-  /* margin: 0 auto; */
   white-space: nowrap;
   width: 96%;
-  /* margin-right: 20px; */
   margin-left: -39px;
 }
 
