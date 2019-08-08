@@ -266,14 +266,14 @@ text-align: center;
 /*----------------------------------------------------
 7.0 E-Pharmacy */   
 
-.pharmacy h2{
+.main-pharmacy-section h2{
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 1px;
   height:auto;
 }
 
-.pharmacy p{
+.main-pharmacy-section p{
   font-size: 14px;
 }
 
@@ -391,6 +391,7 @@ text-align: center;
   -moz-animation: scale 0.7s ease-in-out;
   animation: scale 0.7s ease-in-out;
 }
+
 @keyframes scale {
 0% {
   transform: scale(0.9);
@@ -418,8 +419,8 @@ text-align: center;
 } 
 
 .main-tabs-epharma i {
-  padding: 5px;
   margin-right: 10px;
+  padding: 5px;
 }
 
 .main-tabs-epharma label span {
@@ -461,12 +462,12 @@ text-align: left;
 
 .main-docworks-nuumber{
 background-color: #41C0F1;
-color: #fff;
 border-radius: 50%;
-width: 2%;
-text-align: center;
+color: #fff;
 display: inline-block;
 margin: 102px;
+text-align: center;
+width: 2%;
 } 
 
 @media (max-width: 836px){
@@ -500,8 +501,8 @@ width: 31%;
 
 .main-health-text-p{
 color: #bebebe;
-text-align: left;
 margin-left: 10px;
+text-align: left;
 } 
 
 .main-health-text{
@@ -530,8 +531,8 @@ width: 100%;
 }
 
 .main-docworks-product{
-margin: 20px;
 display: inline-block;
+margin: 20px;
 }
 
 .main-health-questions{
@@ -541,8 +542,8 @@ width: 90%;
 }
 
 .main-health-questions-mobile-only{
-height: auto;
 display: flex;
+height: auto;
 overflow: auto;
 text-align: left;
 width: 2000px;
@@ -608,8 +609,8 @@ text-align: left;
 }
 
 .main-health-p-HPV-2{
-width: 42%;
 text-align: left; 
+width: 42%;
 }
 
 .main-health-articles-desc{
@@ -625,8 +626,8 @@ margin-top: 18px;
 }
 
 .main-docworks-product-1{
-  height: 130px;
-  margin-bottom: 52px;
+height: 130px;
+margin-bottom: 52px;
 }  
 
 .main-docworks-product-2{
@@ -723,19 +724,19 @@ font-size: 130%;
 }
 
 .main-health-related-tabs label {
+  border-bottom: 4px solid #EBEBEB;
+  cursor: pointer; 
+  color: #3C3C3C;
   display: block;
   float: left;
-  width: 15%;
-  color: #3C3C3C;
   font-size: 30px;
   font-weight: normal;
+  line-height: 2;
+  transition: all 0.5s;
   text-decoration: none;
   text-align: center;
-  line-height: 2;
-  cursor: pointer; 
-  border-bottom: 4px solid #EBEBEB;
   -webkit-transition: all 0.5s;  
-  transition: all 0.5s;
+   width: 15%;
 }
 
 .main-health-related-tabs label span {
