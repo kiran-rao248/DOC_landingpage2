@@ -317,8 +317,9 @@ text-align: center;
   padding-right: 34px; 
 } 
 
-.main-ephrama-cliente{
-  display: inline;
+.main-ephrama-cliente{ 
+  display: inline-block;
+  margin-left: 2%;
 }
 
 /* .main-ephrama-cliente:hover{ 
@@ -378,8 +379,7 @@ text-align: center;
   width: 25%;  
   font-weight: normal;
   text-decoration: none;
-  text-align: center;
-  line-height: 2;
+  text-align: center; 
   cursor: pointer; 
   border-bottom: 4px solid #ccc;
   -webkit-transition: all 0.5s; /* Safari 3.1 to 6.0 */
@@ -398,15 +398,15 @@ text-align: center;
 .main-tabs-epharma label:hover {
   color: #3498db; 
   border-bottom: 4px solid #3498db;
-}
+} 
 
 .main-ephrama-tab-content {
   display: none;
-  width: 100%;
   float: left;
-  padding: 15px;
   box-sizing: border-box;
-  margin-top: 20px; 
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px; 
 }
 
 .main-ephrama-tab-content * {
@@ -450,6 +450,43 @@ text-align: center;
   display: inline-block;
   font-size: 16px;
 } 
+
+.main-epharma-tab-1{
+  font-weight: bold;
+}
+.main-epharma-tab-2{
+  font-weight: bold;
+}
+
+.main-epharma-tab-3{
+  font-weight: bold;
+}
+
+
+
+@media (min-width: 320px){
+  .main-epharma-tab-1{
+    margin-bottom: 34px;
+  }
+}
+@media (min-width: 387px){
+  .main-epharma-tab-3{
+    margin-bottom: 34px; 
+  }
+}
+@media (min-width: 606px){
+  .main-epharma-tab-2{
+    margin-bottom: 34px; 
+  }
+}   
+
+/* @media (max-width: 992px){
+  .col-md-3 {
+    width: 25%;
+    border: 2px solid red;
+}
+} */
+
 
 /*----------------------------------------------------
 8.0 How DoctorOnCall Works */
@@ -1190,7 +1227,11 @@ margin-right: 16px;
   }
 }
 
-
+@media (min-width: 992px){
+  .main-health-articles-desc-3 img{
+margin-bottom: 5%;
+  }
+}
 
 /*13.0 Connect With Doctors*/
 
