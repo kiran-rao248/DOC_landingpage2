@@ -75,7 +75,7 @@ height: 43px;
 margin: 0 auto;
 } 
 
-@media (max-width: 576px){
+@media (max-width: 768px){
 .mobile-only{
   display: block;
 }
@@ -200,10 +200,12 @@ margin: 0 auto;
   border: 1px solid #fff;
   background-color: #2e5aa9;
   color: #fff;
+  font-size: 12px;
   padding: 12px;
   border-radius: 4px;
   margin: 4px;
   white-space: nowrap;
+  width: 151px;
 } 
 .main-search-icon{
   fill:#fff;
@@ -238,6 +240,19 @@ margin: 0 auto;
   }
 } 
 
+@media (max-width: 576px){
+  .search-btn {
+    background-color: #41C0F1;
+    border-radius: 0 6px 6px 0;
+    border: none;
+    display: inline-block;
+    height: 100%;
+    margin-left: -4px;
+    vertical-align: top;
+    width: 15%;
+}
+}
+
  /*----------------------------------------------------
 6.0 Partnership Section*/
 
@@ -265,6 +280,10 @@ text-align: center;
 
 /*----------------------------------------------------
 7.0 E-Pharmacy */   
+
+.main-pharmacy-section{
+  margin-left: 5%;
+}
 
 .main-pharmacy-section h2{
   font-size: 24px;
@@ -328,6 +347,7 @@ text-align: center;
 }
 
 .main-medicine-image{
+  height: 100px;
   margin-top: 31px; 
   margin-left: 39px; 
 }
@@ -434,6 +454,10 @@ text-align: center;
 /*----------------------------------------------------
 8.0 How DoctorOnCall Works */
 
+.main-howdocworks-title{
+  margin-left: 5%;
+}
+
 .main-howdocworks-title h2{
   font-size: 30px;
 }
@@ -499,7 +523,7 @@ border-style: solid;
 height: auto;
 margin-left: 11px;
 margin-bottom: 11px;
-width: 31%;
+width: 29%;
 }
 
 .main-health-text-p{
@@ -535,13 +559,12 @@ width: 100%;
 
 .main-docworks-product{
 display: inline-block;
-margin: 20px;
+margin: 45px;
 }
 
 .main-health-questions{
 height: auto;
-text-align: left;
-width: 90%;
+text-align: center; 
 }
 
 .main-health-questions-mobile-only{
@@ -625,7 +648,7 @@ margin-top: 18px;
 }
 
 .main-howdocworks-part{  
-  text-align: left;  
+  text-align: center;  
 }
 
 .main-docworks-product-1{
@@ -791,26 +814,7 @@ font-size: 130%;
   transform: scale(1);
   opacity: 1;
 }
-}
-
-/* .main-tab-header{
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  white-space: nowrap;
-}
-
-.main-tab1{
-  width: 15%;
-}
-
-.main-tab2{
-  width: 15%;
-}
-
-.main-tab3{
-  width: 15%;
-} */
+} 
 
 /*Mechanism*/
 
@@ -824,34 +828,7 @@ font-size: 130%;
 #main-tab3:checked ~ #main-tab-content3,
 #main-tab4:checked ~ #main-tab-content4 {
   display: block;
-}
-
-/* @media (max-width: 992px){
-  .main-tab-header {
-    font-size: 13px;
-    font-weight: bold;
-    text-align: center;
-    white-space: nowrap;
-}
-}
-
-@media (max-width: 724px){
-  .main-tab-header {
-    font-size: 13px;
-    font-weight: bold;
-    text-align: center;
-    white-space: nowrap;
-}
-}
-
-@media (max-width: 578px){
-  .main-tab-header {
-    font-size: 9px;
-    font-weight: bold;
-    text-align: center;
-    white-space: nowrap;
-}
-} */
+} 
 
 @media (min-width: 346px){
   .main-tab-header-2{ 
@@ -877,11 +854,31 @@ font-size: 130%;
   }
 }
 
+@media (min-width: 993px){
+  .main-tab-header-1{ 
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .main-tab-header-2{
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .main-tab-header-3{
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .main-tab-header-4{
+    font-size: 17px;
+    font-weight: bold;
+  }
+}
+
 
 /*11.0 Find Doctors*/
 
 .main-find-doctor h2{
   font-size: 30px;
+  margin-left: 5%;
 }
 
 .main-find-doc-diagram{
@@ -890,7 +887,7 @@ background-repeat: no-repeat;
 background-size: cover; 
 display: inline-block;
 height:180px;
-margin: 1%;
+margin: 20px;
 position: relative;
 text-align: center;
 min-width: 310px;
@@ -986,17 +983,15 @@ font-size: 20px;
 font-weight: bold;
 }
 
-.main-find-doc-diagram-section{
-height: auto;
-margin: 16px;
-text-align: left;
-width: 100%;
+.main-find-doc-diagram-section{ 
+text-align: center; 
 }
 
 /*12.0 Read Health Articles*/
 
 .main-read-health-articles h2{
   font-size: 30px;
+  margin-left: 5%;
 }
 
 .main-health-articles-img-1{ 
@@ -1161,8 +1156,7 @@ margin-top: 20px;
 border: none;
 float: left;
 height: auto;
-margin-right: 16px;
-width: 14%;
+margin-right: 16px; 
 }
 }
 
@@ -1176,6 +1170,7 @@ width: 14%;
   margin-right: 16px;
   width: 30%;
 }
+
 }
 
 @media(min-width: 1199px){
@@ -1321,18 +1316,21 @@ font-size: 120%;
 
 .main-featured-on h2{
   font-size: 30px;
-  margin-left: 6%;
+  margin-left: 13%;
   }
 
 .main-featured-logo img{
   height: 80px;
-}
-
-.main-featured-diagram{
-  padding-bottom: 32px;
-}
+} 
 
 .main-featured-diagram{
   display: inline-block;
-  margin-bottom: 2%;
+  margin: 0 1% 3% 0; 
+} 
+
+@media (max-width: 1085px){
+  .main-epharm-slider-3{
+    display: flex;
+    overflow: auto;
+  }
 }
