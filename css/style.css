@@ -279,10 +279,15 @@ margin: 0 auto;
 }
 
 .main-partner-2{
-display: block;
-margin-top: 3%;
+display: block; 
 text-align: center;
 }
+
+.main-partner-3{
+  display: block;
+  margin-top: 7%;
+  text-align: center;
+  }
 
 /*----------------------------------------------------
 7.0 E-Pharmacy */    
