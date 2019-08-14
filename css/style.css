@@ -571,7 +571,7 @@ border-style: solid;
 height: auto;
 margin-left: 11px;
 margin-bottom: 11px;
-width: 29%;
+width: 200px;
 }
 
 .main-health-text-p{
@@ -584,6 +584,9 @@ text-align: left;
 margin-left: 10px;
 text-align: left; 
 width: 94%;
+font-size: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
 }
 
 .main-health-diagram1-2{ 
@@ -592,6 +595,7 @@ display: inline-block;
 } 
 
 .main-health-diagram1 img{ 
+  height: 95px;
 width: 100%;
 }
 
@@ -615,12 +619,11 @@ height: auto;
 text-align: center; 
 }
 
-.main-health-questions-mobile-only{
-display: inline-flex;
-height: auto;
-overflow: scroll;
+.main-health-questions-mobile-only{ 
+height: auto; 
 text-align: left;
-width: 2000px; 
+width: 100vw;
+white-space: nowrap; 
 }
 
 .main-health-question-1{
@@ -646,7 +649,7 @@ margin-top: -1px;
 .main-health-dr-img{
 float: left;
 height: 40px;
-margin-top: 13px;
+margin-top: 5px;
 margin-left: 6px;  
 margin-right: 10px;
 }
@@ -672,21 +675,22 @@ text-align: left;
 }
 
 .main-health-p{ 
-text-align: left;
+  font-size: 11px;
+  text-align: left;
 } 
 
 .main-health-p-2{
-margin-left: 64px;
+  margin-left: 64px;
 } 
 
 .main-health-p-HPV{
-text-align: left; 
-width: 124%;
+  text-align: left; 
+  width: 124%;
 }
 
 .main-health-p-HPV-2{
-text-align: left; 
-width: 42%;
+  text-align: left; 
+  width: 42%;
 }
 
 .main-health-articles-desc{
@@ -1203,7 +1207,7 @@ margin-right: 16px;
   float: left;
   height: auto;
   margin-right: 16px;
-  width: 30%;
+  width: 30.5%;
 }
 
 }
@@ -1214,7 +1218,7 @@ margin-right: 16px;
   float: left;
   height: auto;
   margin-right: 16px;
-  width: 25%;
+  width: 24.9%;
 }
 }
 
