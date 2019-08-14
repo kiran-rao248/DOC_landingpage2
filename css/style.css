@@ -574,6 +574,16 @@ margin-bottom: 11px;
 width: 200px;
 }
 
+.main-health-div-2{
+  border: 1px solid #EBEBEB;
+  display: inline-block;
+  border-style: solid; 
+  height: auto;
+  margin-left: 11px;
+  margin-bottom: 11px;
+  width: 276px;
+  }
+
 .main-health-text-p{
 color: #bebebe;
 margin-left: 10px;
@@ -589,6 +599,30 @@ margin-top: 20px;
 margin-bottom: 20px;
 }
 
+.main-health-text-2{
+  margin-left: 10px;
+  text-align: left; 
+  width: 94%;
+  font-size: 10px;
+  margin-top: 17px; 
+  }
+
+.main-health-text-3{
+  margin-left: 10px;
+  text-align: left; 
+  width: 94%;
+  font-size: 10px; 
+  margin-bottom: -1px;
+  }
+
+.main-health-text-4{
+  margin-left: 10px;
+  text-align: left; 
+  width: 94%;
+  font-size: 10px; 
+  margin-bottom: 14px;
+  }
+
 .main-health-diagram1-2{ 
 border-color: #8b8585;
 display: inline-block; 
@@ -596,6 +630,11 @@ display: inline-block;
 
 .main-health-diagram1 img{ 
   height: 95px;
+width: 100%;
+}
+
+.main-health-diagram-2 img{ 
+  height: 150px;
 width: 100%;
 }
 
