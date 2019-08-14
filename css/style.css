@@ -767,8 +767,8 @@ font-size: 130%;
   border-style: solid ;
   border-color: #f0ebeb; 
   margin: 1%;
-  width: 154px;
-  height: 127px;
+  width: 108px;
+  height: 89px;
   text-align: center; 
 } 
 
@@ -778,7 +778,7 @@ font-size: 130%;
 } 
 
 .main-read-1 p{
-  font-size: 50%;
+  font-size: 83%;
 }
 
 .main-read-disease {
@@ -873,7 +873,7 @@ font-size: 130%;
 .main-health-related-tabs [id^="main-tab"]:checked + label { 
   border-bottom: 4px solid #41C0F1;
   color: #41C0F1;
-  width: 13%;
+  width: 20%;
 }
 #main-tab1:checked ~ #main-tab-content1,
 #main-tab2:checked ~ #main-tab-content2,
@@ -925,6 +925,17 @@ font-size: 130%;
   }
 }
 
+@media(max-width:536px){
+  .main-tab-header-1{
+    margin-bottom: 23px;
+  }
+}
+
+@media(max-width: 359px){
+  .main-tab-header-1{
+    margin-bottom: 9.5px;
+  }
+}
 
 /*11.0 Find Doctors*/
 
