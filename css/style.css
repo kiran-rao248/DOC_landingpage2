@@ -616,11 +616,11 @@ text-align: center;
 }
 
 .main-health-questions-mobile-only{
-display: flex;
+display: inline-flex;
 height: auto;
-overflow: auto;
+overflow: scroll;
 text-align: left;
-width: 2000px;
+width: 2000px; 
 }
 
 .main-health-question-1{
@@ -744,10 +744,10 @@ margin-bottom: 40px;
   text-align: center;
   width: 310px;
 } 
-
+/* 
 .main-connect-text{ 
 margin-bottom: 17%;
-}
+} */
 
 .main-connect-text h2{ 
 font-size: 250%; 
@@ -1029,7 +1029,7 @@ border: none;
 float: left;
 height: auto; 
 margin-right: 16px; 
-width: 26%;
+width: 86px;
 }
 
 .main-health-articles-diagram-1{ 
@@ -1114,6 +1114,11 @@ position: relative;
 display: inline-block;
 overflow: hidden;
 margin: 0;
+}
+
+.main-health-articles-p{
+  font-size: 9px;
+  font-weight: bold;
 }
 
 .main-health-link1 > .main-health-articles-img-1{
@@ -1276,6 +1281,11 @@ width: 99%;
 
 .main-connect-text-desktop p{
   font-size: 16px;
+}
+
+.main-connect-text-2{
+  padding-bottom: 40px;
+  margin: 2px;
 }
 
 @media (max-width: 768px){
