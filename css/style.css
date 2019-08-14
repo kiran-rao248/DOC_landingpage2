@@ -291,6 +291,7 @@ text-align: center;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 1px;
+  margin-top: 45px;
   height:auto;
 }
 
@@ -386,6 +387,7 @@ text-align: center;
   border-bottom: 4px solid #ccc;
   -webkit-transition: all 0.5s; /* Safari 3.1 to 6.0 */
   transition: all 0.5s;
+  width: 32%;
 }
 
 .main-tabs-epharma label span {
@@ -408,8 +410,8 @@ text-align: center;
   padding: 15px;
   margin-top: 20px; 
   /* overflow: scroll; */
-  white-space: nowrap;
-  text-align: center;
+  white-space: nowrap; 
+  width: 100%;
 }
 
 .main-ephrama-tab-content * {
@@ -433,7 +435,17 @@ text-align: center;
 }
 }
 
-.main-tabs-epharma [id^="main-ephrma-tab-"]:checked + label { 
+.main-tabs-epharma [id^="main-ephrma-tab-1"]:checked + label { 
+  border-bottom: 4px solid #3498db;
+  color: #3498db;
+}
+
+.main-tabs-epharma [id^="main-ephrma-tab-2"]:checked + label { 
+  border-bottom: 4px solid #3498db;
+  color: #3498db;
+}
+
+.main-tabs-epharma [id^="main-ephrma-tab-3"]:checked + label { 
   border-bottom: 4px solid #3498db;
   color: #3498db;
 }
@@ -505,12 +517,12 @@ text-align: center;
 }
 
 .main-howdocworks-title h2{
-  font-size: 30px;
+  font-size: 24px;
   margin-top: 11%;
 }
 
 .main-howdocworks-title p{
-  font-size: 16px; 
+  font-size: 14px; 
 }
 
 .main-docworks-signup{
@@ -650,7 +662,7 @@ width: 100%;
 
 .main-docworks-product{
 display: inline-block;
-margin: 45px;
+margin: 45px 45px 0 45px;
 }
 
 .main-health-questions{
@@ -793,11 +805,11 @@ margin-bottom: 17%;
 } */
 
 .main-connect-text h2{ 
-font-size: 250%; 
+font-size: 24px; 
 }
 
 .main-connect-text p{
-font-size: 130%;
+font-size: 14px;
 }
 
 .main-featured-on{
@@ -950,7 +962,7 @@ font-size: 130%;
 /*11.0 Find Doctors*/
 
 .main-find-doctor h2{
-  font-size: 30px;
+  font-size: 24px;
   margin-left: 5%;
 }
 
@@ -1063,7 +1075,7 @@ text-align: center;
 /*12.0 Read Health Articles*/
 
 .main-read-health-articles h2{
-  font-size: 30px;
+  font-size: 24px;
   margin-left: 5%;
 }
 
@@ -1323,7 +1335,7 @@ width: 99%;
 }
 
 .main-connect-text-desktop p{
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .main-connect-text-2{
@@ -1392,17 +1404,17 @@ text-align: left;
 }
 
 .main-subscribe-email-text h2{
-font-size: 230%;
+font-size: 24px;
 }
 
 .main-subscribe-email-text p{
-font-size: 120%;
+font-size: 14px;
 } 
 
 /*14.0 Featured On*/
 
 .main-featured-on h2{
-  font-size: 30px;
+  font-size: 24px;
   margin-left: 13%;
   }
 
