@@ -1372,6 +1372,11 @@ font-size: 120%;
   margin: 0 1% 3% 0; 
 } 
 
+.main-featured-diagram-1{
+  display: inline-block;
+  margin: -20px 1% 3% 0; 
+} 
+
 @media (max-width: 1085px){
   .main-epharm-slider-3{
     display: flex;
